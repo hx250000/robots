@@ -1,0 +1,147 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/kuka/youbot/protos/Youbot.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/containers/protos/WoodenBox.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.12427873329043528 0.20345112188207795 -0.9711655046677926 1.1229034777360374
+  position -3.7334107642229393 9.29193832320436 2.957790353204633
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 10 10
+}
+Youbot {
+  hidden position_0_0 -1.7979650390742563e-07
+  hidden position_0_1 -1.91691409231422e-07
+  hidden position_0_2 -1.735663901561718e-07
+  hidden position_0_3 -1.8547565321303548e-07
+  hidden position_3_0 9.525114940952866e-06
+  hidden rotation_4 0 0 1 9.567241777063578e-06
+  hidden position_4_0 0.7847001616719066
+  hidden rotation_5 0 -1 0 0.7847001616719066
+  hidden position_5_0 -2.3230159086558486
+  hidden rotation_6 0 1 0 2.3230159086558486
+  hidden position_6_0 1.7800005177401526
+  hidden rotation_7 0 -1 0 1.7800005177401528
+  hidden position_7_0 -2.3332129384101563e-07
+  hidden rotation_8 0 0 -1 2.3276357876976306e-07
+  hidden position_8_0 -7.220752846127057e-10
+  hidden position_8_1 7.223624839324758e-10
+  hidden translation_9 0 -7.220752846127057e-10 0.09
+  hidden translation_10 0 -7.223624839324758e-10 0.09
+  hidden rotation_11 0 -1 0 1.7881393432617193e-07
+  hidden rotation_12 0 -1 0 1.9082797281243954e-07
+  hidden rotation_13 0 -1 0 1.7377590819732256e-07
+  hidden rotation_14 0 -1 0 1.8611544365878105e-07
+  translation 2.9994486970044187 -0.00026105138832441824 0.10201074905816299
+  rotation 0.44694458384352576 -0.8945613278543507 0.0007547717524834476 0.005462340016682949
+  bodySlot [
+    Lidar {
+    }
+    Camera {
+    }
+  ]
+}
+DEF TABLE Solid {
+  translation 0 0.75 0.35
+  children [
+    Pose {
+      translation 0 0 0.35
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.6 0.4 0.2
+          }
+          geometry Box {
+            size 1.2 0.8 0.05
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 0.55 0.35 0
+      children [
+        Shape {
+          geometry Box {
+            size 0.05 0.05 0.7
+          }
+        }
+      ]
+    }
+    Pose {
+      translation -0.55 0.35 0
+      children [
+        Shape {
+          geometry Box {
+            size 0.05 0.05 0.7
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 0.55 -0.35 0
+      children [
+        Shape {
+          geometry Box {
+            size 0.05 0.05 0.7
+          }
+        }
+      ]
+    }
+    Pose {
+      translation -0.55 -0.35 0
+      children [
+        Shape {
+          geometry Box {
+            size 0.05 0.05 0.7
+          }
+        }
+      ]
+    }
+  ]
+  boundingObject Pose {
+    translation 0 0 0.35
+    children [
+      Box {
+        size 1.2 0.8 0.05
+      }
+    ]
+  }
+}
+DEF box1 WoodenBox {
+  translation 2 2 0.15
+  rotation 0.02103289079880233 0.9822360003036269 0.18646730869559683 9.008655285760133e-17
+  name "wooden box(1)"
+  size 0.3 0.3 0.3
+  mass 0.5
+}
+DEF box2 WoodenBox {
+  translation 2 -2 0.15
+  rotation -0.1682835340614284 0.9856606995026481 -0.012395064330061666 7.88161745879054e-17
+  name "wooden box(2)"
+  size 0.3 0.3 0.3
+  mass 0.5
+}
+DEF box3 WoodenBox {
+  translation -2 -2 0.15
+  rotation -0.09262336436950325 -0.9957011669721513 0.00031378841649015883 8.182732905856247e-17
+  name "wooden box(3)"
+  size 0.3 0.3 0.3
+  mass 0.5
+}
+DEF box4 WoodenBox {
+  translation -2 2 0.15
+  rotation 0.6282672360942134 -0.7778546732595019 0.014912657003071404 6.333354807730061e-17
+  name "wooden box(4)"
+  size 0.3 0.3 0.3
+  mass 0.5
+}

@@ -1,0 +1,10 @@
+Webots Project File version R2025a
+perspectives: 000000ff00000000fd0000000200000001000002640000046ffc0200000001fb0000001400540065007800740045006400690074006f0072010000001b0000046f0000008e00ffffff00000003000008d0000000cffc0100000001fb0000001a0043006f006e0073006f006c00650041006c006c0041006c006c0100000000000008d00000006900ffffff0000066a0000046f00000001000000020000000100000008fc00000000
+simulationViewPerspectives: 000000ff00000001000000020000012e000004e50100000002010000000100
+sceneTreePerspectives: 000000ff000000010000000300000024000000c0000000fa0100000002010000000200
+maximizedDockId: -1
+centralWidgetVisible: 1
+orthographicViewHeight: 1
+textFiles: 2 "../../lab9/lab8/lab8/controllers/inverted_pendulum_benchmark/inverted_pendulum_benchmark.py" "../../lab9/lab8/lab8/controllers/inverted_pendulum/inverted_pendulum.py" "controllers/my_controller1/my_controller1.py"
+consoles: Console:All:All
+renderingDevicePerspectives: youBot:camera;1;1;0;0
