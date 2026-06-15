@@ -5,6 +5,6 @@ sceneTreePerspectives: 000000ff000000010000000300000024000000c0000000fa010000000
 maximizedDockId: -1
 centralWidgetVisible: 1
 orthographicViewHeight: 1
-textFiles: 2 "../../lab9/lab8/lab8/controllers/inverted_pendulum_benchmark/inverted_pendulum_benchmark.py" "../../lab9/lab8/lab8/controllers/inverted_pendulum/inverted_pendulum.py" "controllers/my_controller1/my_controller1.py"
+textFiles: 3 "../../lab9/lab8/lab8/controllers/inverted_pendulum_benchmark/inverted_pendulum_benchmark.py" "../../lab9/lab8/lab8/controllers/inverted_pendulum/inverted_pendulum.py" "controllers/my_controller1/my_controller1.py" "controllers/p1/p1.py"
 consoles: Console:All:All
 renderingDevicePerspectives: youBot:camera;1;1;0;0
